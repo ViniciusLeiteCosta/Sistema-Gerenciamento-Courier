@@ -1,11 +1,14 @@
-# Sistema de Gerenciamento de Courier [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3c2985f91868461aacc06bf91c476795)](https://app.codacy.com/gh/Entrega-Rapida-Solucoes/Sistema-Gerenciamento-Courier/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-           	🤵 INTEGRANTES
+# Sistema de Gerenciamento de Courier
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3c2985f91868461aacc06bf91c476795)](https://app.codacy.com/gh/Entrega-Rapida-Solucoes/Sistema-Gerenciamento-Courier/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
+     🤵 INTEGRANTES
 #
-Vinicius L.  |  José A.  |  Lucas G.  |  Nycole L.
+Vinicius Leite |  José Alves |  Lucas Galdêncio |  Nicoly Lana
 #
 	        📕 SOBRE O PROJETO
 #
-Projeto de implementação de um gerenciamento de courier em Ruby e Rails para a disciplina de Engenharia de Software ministrado pelo Professor Dr. Rodrigo Andrade, da UFAPE, referente ao período de 2023.1 com intuito de avaliação para a 2ª Verificação de Aprendizagem. O projeto consiste em facilitar a administração de recebimentos e entregas de encomendas destinadas a condomínios, empresas e outras instituições.
+Projeto de implementação de um gerenciamento de courier em Ruby e Rails para a disciplina de Engenharia de Software ministrado pelo Professor Dr. Rodrigo Andrade, da UFAPE, referente ao período de 2023.1 como modo de avaliação para a 2ª Verificação de Aprendizagem. O projeto consiste em facilitar a administração de recebimentos e entregas de encomendas destinadas a condomínios, empresas e outras instituições.
 * [Site no Railway app]
 #
 	        📌 OBJETIVOS
