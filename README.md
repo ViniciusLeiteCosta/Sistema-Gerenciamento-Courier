@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Courier
+# Sistema de Gerenciamento de Courier [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3c2985f91868461aacc06bf91c476795)](https://app.codacy.com/gh/Entrega-Rapida-Solucoes/Sistema-Gerenciamento-Courier/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
            	🤵 INTEGRANTES
 #
 Vinicius L.  |  José A.  |  Lucas G.  |  Nycole L.
