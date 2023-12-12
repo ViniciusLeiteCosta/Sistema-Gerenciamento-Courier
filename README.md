@@ -10,6 +10,8 @@ Vinicius Leite |  José Alves |  Lucas Galdêncio |  Nicoly Lana
 
 Projeto de implementação de um gerenciamento de courier em Ruby e Rails para a disciplina de Engenharia de Software ministrado pelo Professor Dr. Rodrigo Andrade, da UFAPE, referente ao período de 2023.1 como modo de avaliação para a 2ª Verificação de Aprendizagem. O projeto consiste em facilitar a administração de recebimentos e entregas de encomendas destinadas a condomínios, empresas e outras instituições.
 
+Link de acesso ao site: https://entrega-rapida.onrender.com
+
 ## 📌 OBJETIVOS
 
 O funcionário deve ser capaz de gerenciar o sistema realizando o cadastro do recebimento do pacote, notificando, em seguida, o destinatário, que pode ser um funcionário específico da empresa localizado em uma sala determinada. O sistema deve ser capaz de realizar operações completas de cadastro, edição, listagem, exibição e remoção de encomendas recebidas. Como também um CRUD para os registros de funcionários.
