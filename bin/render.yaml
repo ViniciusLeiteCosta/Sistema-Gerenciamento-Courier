@@ -1,7 +1,7 @@
 databases:
-  - name: entregabd
-    databaseName: entregadatabase
-    user: user
+  - name: entrega
+    databaseName: entregaDB
+    user: usuario
 
 services:
   - type: web
