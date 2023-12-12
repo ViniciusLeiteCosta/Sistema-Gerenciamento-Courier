@@ -20,19 +20,19 @@ Projeto de implementação de um gerenciamento de courier em Ruby e Rails para a
 O funcionário deve ser capaz de gerenciar o sistema realizando o cadastro do recebimento do pacote, notificando, em seguida, o destinatário, que pode ser um funcionário específico da empresa localizado em uma sala determinada. O sistema deve ser capaz de realizar operações completas de cadastro, edição, listagem, exibição e remoção de encomendas recebidas. Como também um CRUD para os registros de funcionários.
 
 #
-	👩‍💻 TECNOLOGIAS UTILIZADAS
+    👩‍💻 TECNOLOGIAS UTILIZADAS
 #
 
-  * Ruby
-    * Versão 3.1.1
+- Ruby
+  - versão 3.1.1
 
-  * Rails
-    * Versão 7.0.2.2
+- Rails
+  - Versão 7.0.2.2
 
-  * RubyMine
-    * Versão 2021.3.2
+- RubyMine
+  - Versão 2021.3.2
 
-  * Codacy
+- Codacy
 
 #
     	⚠️STATUS DO PROJETO
