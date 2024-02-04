@@ -1,7 +1,0 @@
-test:
-  adapter: postgresql
-  enconding: unicode
-  pool: <%= ENV.fetch["RAILS_MAX_THREADS"] =%>
-  database: <%= ENV["POSTGRES_DB"] =%>
-  username: <%= ENV["POSTGRES_USER"] =%>
-  password: <%= ENV["POSTGRES_PASSWORD"] =%>
