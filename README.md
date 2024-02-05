@@ -19,13 +19,13 @@ O funcionário deve ser capaz de gerenciar o sistema realizando o cadastro do re
 ## 👩‍💻 TECNOLOGIAS UTILIZADAS
 
 - Ruby
-  - versão 3.1.1
+    - versão 3.1.1
 
 - Rails
-  - Versão 7.0.2.2
+    - Versão 7.0.2.2
 
 - RubyMine
-  - Versão 2021.3.2
+    - Versão 2021.3.2
 
 - Codacy
 
