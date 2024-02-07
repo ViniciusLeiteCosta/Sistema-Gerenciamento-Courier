@@ -11,13 +11,16 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2024_02_04_233944) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "destinatarios", force: :cascade do |t|
     t.string "nome"
     t.date "data_nascimento"
     t.string "cpf"
     t.string "email"
     t.string "telefone"
-    t.integer "endereco_id", null: false
+    t.bigint "endereco_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["endereco_id"], name: "index_destinatarios_on_endereco_id"
@@ -27,13 +30,11 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_04_233944) do
     t.float "peso"
     t.string "status"
     t.date "data_entrega"
-    t.integer "endereco_id", null: false
-    t.integer "destinatario_id", null: false
-    t.integer "remetente_id", null: false
+    t.bigint "destinatario_id", null: false
+    t.bigint "remetente_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["destinatario_id"], name: "index_encomendas_on_destinatario_id"
-    t.index ["endereco_id"], name: "index_encomendas_on_endereco_id"
     t.index ["remetente_id"], name: "index_encomendas_on_remetente_id"
   end
 
@@ -65,7 +66,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_04_233944) do
     t.string "nome"
     t.string "email"
     t.string "telefone"
-    t.integer "endereco_id", null: false
+    t.bigint "endereco_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["endereco_id"], name: "index_remetentes_on_endereco_id"
@@ -73,7 +74,6 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_04_233944) do
 
   add_foreign_key "destinatarios", "enderecos"
   add_foreign_key "encomendas", "destinatarios"
-  add_foreign_key "encomendas", "enderecos"
   add_foreign_key "encomendas", "remetentes"
   add_foreign_key "remetentes", "enderecos"
 end

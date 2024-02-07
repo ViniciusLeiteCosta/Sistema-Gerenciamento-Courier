@@ -67,4 +67,5 @@ class EncomendasController < ApplicationController
     def encomenda_params
       params.require(:encomenda).permit(:peso, :status, :data_entrega, :destinatario_id, :remetente_id)
     end
+
 end
