@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
+  get 'encomendas/new', to: 'encomendas#new', as: 'new_encomenda'
+
   resources :encomendas
   resources :remetentes
   resources :destinatarios
   resources :funcionarios
   resources :enderecos
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  root "encomendas#index"
 end
